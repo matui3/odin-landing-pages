@@ -3,55 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1>Header Logo</h1>
-            <nav>
-                <ul>
-                    <li><a href="http://">header link one</a></li>
-                    <li><a href="http://">header link two</a></li>
-                    <li><a href="http://">header link three</a></li>
-                </ul>
-            </nav>
-        </div>
-        <section>
-            <div>
-                <h2>This webiste is awesome</h2>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-                    contrast</p>
-                <button>Sign Up</button>
+        <section class="container">
+            <div class="navbar">
+                <h1 class="logo-text">Header Logo</h1>
+                <nav>
+                    <ul>
+                        <li><a href="http://">header link one</a></li>
+                        <li><a href="http://">header link two</a></li>
+                        <li><a href="http://">header link three</a></li>
+                    </ul>
+                </nav>
             </div>
-            <img src="" alt="Placeholder for an image">
+            <div class="top">
+                <div class="top-left">
+                    <h2 class="main-text">This website is awesome</h2>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+                        contrast</p>
+                    <button class="blue-style">Sign Up</button>
+                </div>
+                <div class="top-right">this is a placeholder for an image</div>
+            </div>
         </section>
         
+        
     </header>
-    <main>
-        <section>
-            <h2>Some Random information</h2>
-            <div>
-                <div>
+    <main class="middle-container">
+        <section class="upper-middle">
+            <h2 class="info-text">Some random information.</h2>
+            <div class="boxes">
+                <div class="small-box">
                     Box 1
                 </div>
-                <div>
+                <div class="small-box">
                     Box 2
                 </div>
-                <div>
+                <div class="small-box">
                     Box 3
                 </div>
-                <div>
+                <div class="small-box">
                     Box 4
                 </div>
             </div>
         </section>
-        <section>
+        <section id="quote">
             <div>
                 Quote Section
             </div>
         </section>
-        <section>
+        <section class="lower-middle">
             <div>
                 <h3>Call to action! It's time!</h3>
                 <p>Sign up for our product by clicking that button over there!</p>
